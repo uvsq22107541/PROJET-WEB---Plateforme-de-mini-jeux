@@ -6,8 +6,9 @@ https://nodejs-m1info-web.herokuapp.com/
 
 ## <u> Interface de l'application 💻</u>
 
-![Interfece de l'application 1](C0.PNG)
-![Interfece de l'application 2](C1.PNG)
+![Interfece de l'application 1](C0.png)
+------------------------------------------
+![Interfece de l'application 2](C1.png) 
 
 ## <u> MORPION X|O 💻</u>
 
