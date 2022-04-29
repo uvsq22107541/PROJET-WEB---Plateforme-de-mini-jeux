@@ -7,6 +7,7 @@ const http =require('http').createServer(app);
 const path = require('path');
 const port =  process.env.PORT || 8080 ;
 
+
 // MongoDB //
 const moogoose = require('mongoose');
 const { default: mongoose } = require('mongoose');
@@ -39,6 +40,7 @@ app.use('/bootstrap/css', express.static(path.join(__dirname, 'node_modules/boot
 app.use('/bootstrap/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
 app.use('/jquery', express.static(path.join(__dirname, 'node_modules/jquery/dist')));
 app.use('/public', express.static(path.join(__dirname, 'public')));
+//app.use(express.static(__dirname + '/public/'));
 
 // Listes des chemins renvoyant sur chaques Mini-jeux //
 /* Accueil */

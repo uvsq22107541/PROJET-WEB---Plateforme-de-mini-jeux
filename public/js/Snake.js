@@ -157,27 +157,12 @@ export default class Snake {
       if (this.score >= localStorage.getItem("highscore")) {
         localStorage.setItem("highscore", this.score);
       }
-    }  
+    }
 
     this.nbvertText.setText('Vertes : ' + this.nbvert);
     this.nbbleuText.setText('Bleues : ' + this.nbbleu);
     this.nbrougeText.setText('Rouges : ' + this.nbrouge);
-    this.nbtotalText.setText('Total : ' + this.nbtotal);
-    /*
-    this.meilleurTempsText.text = 'Meilleur Temps: ' + localStorage.getItem("meilleurtemps");
-    {
-      if (this.temps <= localStorage.getItem("meilleurtemps")) {
-     // if (localStorage.getItem("meilleurtemps") >= this.temps) {
-        localStorage.setItem("meilleurtemps", this.temps);
-      } else this.temps == localStorage.getItem("meilleurtemps");
-    }
-    */
-
-    
-    //-----------------------------------------------------------------------------------------------   
-  }
-
-
+    this.nbtotalText.setText('Total : ' + this.nbtotal);  }
 
     // ------------------------------------ 4 -----------------------------------------------------------
   /** 4.1 Méthode pour Générer une position aléatoire (x,y) pour la pommme verte **/
